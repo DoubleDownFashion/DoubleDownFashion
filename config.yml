@@ -71,7 +71,7 @@ plugins:
   # Use as: {{ vars.YouTubeChannelLatestVideoPlugin['@handle'].title }}
   #         {{ vars.YouTubeChannelLatestVideoPlugin['@handle'].url }}
   - YouTubeChannelLatestVideoPlugin:
-      - "@zhgchgli"
+      - "@doubledown2200"
 
 # -----------------------------------------------------------------------------
 # Tracking
