@@ -43,6 +43,135 @@ links:
 
   - link:
       icon: "fa-solid fa-link"
+      text: "📦 Browse My Full Linktree Catalog"
+      url: "https://linktr.ee/doubledownfashion"
+      alt: "Browse my curated fashion catalog"
+      title: "Browse my curated fashion catalog"
+      target: "_blank"
+
+  - link:
+      icon: "fa-solid fa-link"
+      text: "🛍️ Shop Summer Daytime Looks"
+      url: "https://bit.ly/4x49U6F"
+      alt: "Shop affordable summer outfits"
+      title: "Shop affordable summer outfits"
+      target: "_blank"
+
+  - link:
+      icon: "fa-brands fa-youtube"
+      text: "🎬 Watch on YouTube"
+      url: "https://www.youtube.com/@Double_Down_2200"
+      alt: "Double Down Fashion YouTube Channel"
+      title: "Double Down Fashion YouTube Channel"
+      target: "_blank"
+
+  - link:
+      icon: "fa-brands fa-pinterest"
+      text: "📌 Follow on Pinterest"
+      url: "https://www.pinterest.com/doubledown2200/"
+      alt: "Double Down Fashion Pinterest"
+      title: "Double Down Fashion Pinterest"
+      target: "_blank"
+
+  - link:
+      icon: "fa-brands fa-facebook"
+      text: "👍 Follow on Facebook"
+      url: "https://www.facebook.com/doubledownfashion"
+      alt: "Double Down Fashion Facebook"
+      title: "Double Down Fashion Facebook"
+      target: "_blank"
+
+  - link:
+      icon: "fa-solid fa-video"
+      text: "{{ vars.YouTubeChannelLatestVideoPlugin['@doubledown2200'].title }}"
+      url: "{{ vars.YouTubeChannelLatestVideoPlugin['@doubledown2200'].url }}"
+      alt: "Latest YouTube video"
+      title: "Latest YouTube video"
+      target: "_blank"
+      latest: true
+
+# -----------------------------------------------------------------------------
+# Social media buttons
+# -----------------------------------------------------------------------------
+socials:
+  - social:
+      icon: "fa-brands fa-youtube"
+      url: "https://www.youtube.com/@Double_Down_2200"
+      title: "Double Down Fashion YouTube"
+      alt: "Double Down Fashion YouTube"
+      target: "_blank"
+  - social:
+      icon: "fa-brands fa-pinterest"
+      url: "https://www.pinterest.com/doubledown2200/"
+      title: "Double Down Fashion Pinterest"
+      alt: "Double Down Fashion Pinterest"
+      target: "_blank"
+  - social:
+      icon: "fa-brands fa-facebook"
+      url: "https://www.facebook.com/doubledownfashion"
+      title: "Double Down Fashion Facebook"
+      alt: "Double Down Fashion Facebook"
+      target: "_blank"
+  - social:
+      icon: "fa-solid fa-envelope"
+      url: "mailto:doubledownfashion@gmail.com"
+      title: "Email"
+      alt: "Email"
+      target: "_blank"
+
+# -----------------------------------------------------------------------------
+# Footer
+# -----------------------------------------------------------------------------
+footer: >
+    🛍️ Affordable fashion that looks like a million bucks — in every season.
+    <br>Curated style for real life, from beach days to cozy nights.
+
+copyright: >
+  © {{ year }} <a href="https://www.youtube.com/@Double_Down_2200" target="_blank">Double Down Fashion</a>. Powered by <a href="https://github.com/ZhgChgLi/linkyee" target="_blank">linkyee</a># =============================================================================
+# linkyee — Site Configuration
+# =============================================================================
+
+theme: default
+lang: "en"
+color_scheme: auto
+
+plugins:
+  - YouTubeChannelLatestVideoPlugin:
+      - "@doubledown2200"
+
+# -----------------------------------------------------------------------------
+# Tracking
+# -----------------------------------------------------------------------------
+google_analytics_id:
+
+# Pinterest Site Verification
+meta_tags:
+  - '<meta name="p:domain_verify" content="49baf67aa92f010d3915b8e8a318935d"/>'
+
+# -----------------------------------------------------------------------------
+# Profile header
+# -----------------------------------------------------------------------------
+title: "Double Down Fashion"
+avatar: "./images/profile.jpeg"
+name: "Double Down Fashion"
+tagline: >-
+    Helping you discover affordable fashion that looks like a million bucks — in every season. ☀️❄️
+    Curated style for real life, from beach days to cozy nights.
+
+# -----------------------------------------------------------------------------
+# Links
+# -----------------------------------------------------------------------------
+links:
+  - link:
+      icon: "fa-solid fa-bag-shopping"
+      text: "🛍️ Shop My Amazon Picks"
+      url: "https://www.amazon.com/shop/doubledown2200"
+      alt: "Shop my Amazon Storefront"
+      title: "Shop my Amazon Storefront"
+      target: "_blank"
+
+  - link:
+      icon: "fa-solid fa-link"
       text: "📦 Browse My Linktree Catalog"
       url: "https://linktr.ee/doubledown2200"
       alt: "Browse my curated fashion catalog"
