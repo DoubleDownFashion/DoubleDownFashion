@@ -2,7 +2,7 @@
 # linkyee — Site Configuration
 # =============================================================================
 
-theme: minimal-mono
+theme: default
 lang: "en"
 color_scheme: auto
 
